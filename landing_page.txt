@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Landing page</title>
+        <style>
+        body{
+            background-color: whitesmoke;}
+        input[type=text]{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin:5px 0;
+            padding:5px 10px;
+            width: 20%;
+            border-radius: 5px;}
+        h1 {
+            text-align: center;
+            color: azure;
+            text-shadow: 2px 2px 4px #000000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        </style>
+    </head>
+    <body>
+        <h1>LOGIN</h1>
+        <form>
+            <label for="fname">Name</label><br>
+            <input type="text" id="fname"><br>
+            <label for="us">User Name</label><br>
+            <input type="text" id="us"><br>
+            <label for="email">Email Id</label><br>
+            <input type="text" id="email"><br>
+            <label for="Pn">Password</label><br>
+            <input type="text" id="Pn"><br>
+            <input type="button" value="Login">
+        </form>
+    </body>
+</html>
